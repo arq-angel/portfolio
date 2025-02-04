@@ -75,6 +75,7 @@ a {
     border-radius: 5px;
     border-color: #3B82F6;
     border-style: solid;
+    flex-shrink: 0;
 }
 
 .button-text {
@@ -155,6 +156,47 @@ a {
     font-weight: 700;
 }
 
+.modal-container {
+    padding: 40px 100px;
+}
+
+.modal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3B82F6;
+    padding: 30px 70px;
+    color: white;
+    border-radius: 10px;
+    gap: 20px
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.modal-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.modal-subtext {
+    font-size: 0.9rem;
+}
+
+.modal-button {
+    padding: 5px 20px;
+    color: white;
+    background-color: #3B82F6;
+    border-color: #3B82F6;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    flex-shrink: 0;
+}
 
 
 .footer {
