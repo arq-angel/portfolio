@@ -90,7 +90,48 @@ a {
 
 .body {
     flex: 1;
+    margin: 0 100px 40px 100px;
+}
 
+.articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.articles-title-container {
+    margin-bottom: 40px;
+}
+
+.articles-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+}
+
+.article-text-container {
+    width: 150px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.article-text {
+    font-size: 0.9rem;
 }
 
 .footer {
