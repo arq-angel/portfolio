@@ -90,14 +90,13 @@ a {
 
 .body {
     flex: 1;
-    margin: 0 100px 40px 100px;
 }
 
 .articles {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 40px 0;
+    margin: 40px 100px;
 }
 
 .articles-title-container {
@@ -133,6 +132,30 @@ a {
 .article-text {
     font-size: 0.9rem;
 }
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 40px 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.author-section {
+    margin-left: auto;
+}
+
+.author {
+    font-weight: 700;
+}
+
+
 
 .footer {
     background-color: #1F2937;
