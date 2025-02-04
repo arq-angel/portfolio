@@ -198,8 +198,18 @@ a {
     flex-shrink: 0;
 }
 
-
 .footer {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    margin: 40px auto;
+}
+
+.footer-text {
     color: white;
+    font-size: 0.9rem;
 }
